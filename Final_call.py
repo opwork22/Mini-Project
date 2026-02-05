@@ -46,6 +46,3 @@ while True:
         print(run_graph())
     if choice=="Exit":
         break
-
-
-#logging

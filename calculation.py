@@ -1,23 +1,28 @@
 import pandas as pd
 import logging
+import os
+
+# BASE DIRECTORY
+BASE_DIR = "/home/om-panchpatkar/Desktop/Python/Mini project"
+
+# FILE PATHS
+CSV_FILE = os.path.join(BASE_DIR, "student.csv")
+LOG_FILE = os.path.join(BASE_DIR, "student.log")
 
 # LOGGING CONFIGURATION
-
 logging.basicConfig(
-    filename="student.log",
+    filename=LOG_FILE,
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
 
 def calculate_result_grade():
-
     try:
-
         logging.info("Result & Grade calculation started")
 
         # READ CSV FILE
-        df = pd.read_csv("student.csv")
+        df = pd.read_csv(CSV_FILE)
 
         marks_cols = ["Science", "Maths", "English", "History", "Computer"]
 
@@ -28,41 +33,24 @@ def calculate_result_grade():
         df["Percent"] = (df["Total"] / 500) * 100
         df["Percent"] = df["Percent"].round(2)
 
-        # RESULT COLUMN (PASS / FAIL)
+        # RESULT
+        df["Result"] = df["Percent"].apply(lambda x: "P" if x >= 45 else "F")
 
-        result_list = []
-
-        for percent in df["Percent"]:
-
-            if percent >= 45:
-                result_list.append("P")
-            else:
-                result_list.append("F")
-
-        df["Result"] = result_list
-
-        # GRADE COLUMN
-
-        grade_list = []
-
-        for percent in df["Percent"]:
-
+        # GRADE
+        def grade(percent):
             if percent >= 90:
-                grade_list.append("A")
-
+                return "A"
             elif percent >= 75:
-                grade_list.append("B")
-
+                return "B"
             elif percent >= 60:
-                grade_list.append("C")
-
+                return "C"
             else:
-                grade_list.append("D")
+                return "D"
 
-        df["Grade"] = grade_list
+        df["Grade"] = df["Percent"].apply(grade)
 
-        # SAVE BACK TO SAME FILE
-        df.to_csv("student.csv", index=False)
+        # SAVE BACK
+        df.to_csv(CSV_FILE, index=False)
 
         logging.info("Result, Percent and Grade added successfully")
 
@@ -70,11 +58,9 @@ def calculate_result_grade():
         print("student.csv Updated")
 
     except FileNotFoundError:
-
         logging.error("student.csv file not found")
         print("Error: student.csv file not found")
 
     except Exception as e:
-
-        logging.error("Error during result calculation")
+        logging.error(f"Error during result calculation: {e}")
         print("Error:", e)
