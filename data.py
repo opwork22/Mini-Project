@@ -31,7 +31,6 @@ def write_csv():
 [8, "Rohit", -10, 60, 55, 58, 62, "Kolkata", "Cricket"],
 [9, "Ankit", 72, 75, 70, 68, 74, "Indore", "Kabaddi"],
 [10, "Pooja", 35, 88, 19, 32, 120, "Bhopal", "Badminton"],
-
 [11, "Suresh", 95, 87, 85, 88, 92, "Delhi", "Cricket"],
 [12, "Meena", 55, 60, 58, None, 62, "Surat", "Volleyball"],
 [13, "Amit", 40, -5, 50, 48, 55, "Agra", "Football"],
@@ -42,7 +41,6 @@ def write_csv():
 [18, "Priya", 23, 328, 26, 24, 10, "Amritsar", "Hockey"],
 [19, "Sanjay", 60, 65, 62, 58, 66, "Udaipur", "Swimming"],
 [20, "Ritu", 78, 80, 79, 75, 82, "Kanpur", "Cricket"],
-
 [21, "Vikas", 82, 85, 83, 80, 88, "Delhi ", "Badminton"],
 [22, "Nikhil", 68, 70, 65, 60, 72, "Ranchi", "Kabaddi"],
 [23, "Aarti", 95, 97, 94, 92, 96, "Faridabad", "Tennis"],
@@ -53,7 +51,6 @@ def write_csv():
 [28, "Harsh", 90, 92, 88, 85, 91, "Meerut", "Badminton"],
 [29, "Pankaj", 65, 60, 62, 58, 67, "Alwar", "Football"],
 [30, "Simran", 87, 89, 85, 83, 90, "Jodhpur", "Tennis"],
-
 [31, "Yash", 23, 23, 12, 56, 450, "Kota", "Cricket"],
 [32, "Naina", 92, 94, 90, 88, 95, "Ujjain", "Swimming"],
 [33, "Rakesh", 84, 86, 82, 80, 88, "Dewas", "Kabaddi"],
@@ -64,7 +61,6 @@ def write_csv():
 [38, "Bhavna", 88, 90, 87, 85, 92, "Morena", "Badminton"],
 [39, "Varun", 54, 50, 52, 48, 55, "Shivpuri", "Football"],
 [40, "Sneha", 97, 99, 95, 93, 98, "Guna", "Tennis"],
-
 [10, "RAM", 85, 88, 86, 84, 90, "Bhopal", "Cricket"]
 ]
 

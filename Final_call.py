@@ -29,8 +29,13 @@ def run_graph():
     visualisation.graph()
 
 while True:
-   
+    print("1.menu")
+    print("2.preprocess")
+    print("3.calculation")
+    print("4.graph")
+    print("5.Exit")
     choice=input("Enter the choice:")
+   
     if choice=="menu":
         print(run_menu())
     if choice=="preprocess":

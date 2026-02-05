@@ -32,7 +32,7 @@ def data_cleaning():
 
         for index, row in df.iterrows():
 
-            roll = row["Roll No"]
+            roll = row["Roll No"] #Extracts the roll number from the current row
 
             if roll in used_rolls:
 
@@ -90,8 +90,8 @@ def data_cleaning():
 
             city = str(df.at[index, "City"])
 
-            city = re.sub(r"\s+", " ", city)
-            city = city.strip()
+            city = re.sub(r"\s+", " ", city) #multipal sapces in single space
+            city = city.strip() #removes the space before and after
 
             if city == "" or city.lower() == "nan":
 
