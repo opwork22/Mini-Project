@@ -1,0 +1,106 @@
+import pandas as pd
+import plotly.express as px
+import os
+import logging
+
+
+#LOGGING SETUP 
+
+logging.basicConfig(
+    filename="student.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+
+#PARENT FUNCTION 
+
+def graph():
+
+    try:
+
+        logging.info("Graph generation started")
+
+        # READ DATA
+        df = pd.read_csv("student.csv")
+
+        marks_cols = ["Science", "Maths", "English", "History", "Computer"]
+
+        # CREATE GRAPH FOLDER
+        graph_folder = "graphs"
+
+        if not os.path.exists(graph_folder):
+            os.mkdir(graph_folder)
+            logging.info("Graphs folder created")
+
+        # GRAPH 1 — SUBJECT AVERAGE MARKS
+
+        subject_avg = []
+
+        for subject in marks_cols:
+            avg = df[subject].mean()
+            subject_avg.append(avg)
+
+        avg_df = pd.DataFrame({
+            "Subject": marks_cols,
+            "Average Marks": subject_avg
+        })
+
+        fig1 = px.bar(
+            avg_df,
+            x="Subject",
+            y="Average Marks",
+            title="Subject Wise Average Marks"
+        )
+
+        fig1.write_image("graphs/subject_average.png")
+
+        logging.info("Subject average graph saved")
+
+
+        # GRAPH 2 — GRADE DISTRIBUTION
+
+        grade_count = df["Grade"].value_counts().reset_index()
+        grade_count.columns = ["Grade", "Count"]
+
+        fig2 = px.pie(
+            grade_count,
+            names="Grade",
+            values="Count",
+            title="Grade Distribution"
+        )
+
+        fig2.write_image("graphs/grade_distribution.png")
+
+        logging.info("Grade distribution graph saved")
+
+
+        # GRAPH 3 — PASS FAIL COUNT
+
+        result_count = df["Result"].value_counts().reset_index()
+        result_count.columns = ["Result", "Count"]
+
+        fig3 = px.bar(
+            result_count,
+            x="Result",
+            y="Count",
+            title="Pass vs Fail Students"
+        )
+
+        fig3.write_image("graphs/pass_fail.png")
+
+        logging.info("Pass Fail graph saved")
+
+
+        print("\nAll graphs generated successfully ")
+        print("Saved inside 'graphs' folder")
+
+        logging.info("All graphs created successfully")
+
+
+    except Exception as e:
+
+        logging.error("Error while generating graphs")
+        logging.error(str(e))
+
+        print("Error:", e)
