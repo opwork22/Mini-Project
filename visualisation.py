@@ -18,7 +18,6 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-
 # PARENT FUNCTION
 def graph():
     try:
@@ -50,7 +49,13 @@ def graph():
             avg_df,
             x="Subject",
             y="Average Marks",
+            text="Average Marks",
             title="Subject Wise Average Marks"
+        )
+
+        fig1.update_traces(
+            textposition="outside",
+            textangle=0
         )
 
         fig1.write_image(os.path.join(GRAPH_DIR, "subject_average.png"))
@@ -78,7 +83,13 @@ def graph():
             result_count,
             x="Result",
             y="Count",
+            text="Count",
             title="Pass vs Fail Students"
+        )
+
+        fig3.update_traces(
+            textposition="outside",
+            textangle=0
         )
 
         fig3.write_image(os.path.join(GRAPH_DIR, "pass_fail.png"))
