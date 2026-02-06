@@ -175,3 +175,4 @@ def Menu():
     except Exception as e:
         logging.critical(f"Program crashed: {e}")
         print("Program crashed due to an error.")
+

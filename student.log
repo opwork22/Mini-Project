@@ -149,3 +149,141 @@
 2026-02-06 10:48:11,369 - INFO - shutil.rmtree worked.
 2026-02-06 10:48:11,369 - INFO - TemporaryDirectory.cleanup() worked.
 2026-02-06 10:48:11,369 - INFO - shutil.rmtree worked.
+2026-02-06 11:21:03,324 - WARNING - Invalid menu choice entered
+2026-02-06 11:21:07,964 - INFO - Program exited by user
+2026-02-06 12:32:21,345 - INFO - Student data written successfully
+2026-02-06 12:32:37,906 - INFO - Student data read successfully
+2026-02-06 12:33:12,771 - INFO - New student appended: Roll No 51
+2026-02-06 12:33:18,391 - WARNING - Invalid menu choice entered
+2026-02-06 12:33:21,356 - INFO - Program exited by user
+2026-02-06 12:33:31,677 - INFO - Data cleaning process started
+2026-02-06 12:33:31,680 - INFO - Checking duplicate roll numbers
+2026-02-06 12:33:31,681 - WARNING - Duplicate roll 10 found. New roll assigned: 52
+2026-02-06 12:33:31,682 - WARNING - Duplicate roll 40 found. New roll assigned: 53
+2026-02-06 12:33:31,682 - INFO - Checking missing and invalid marks
+2026-02-06 12:33:31,682 - WARNING - Missing English marks for Riya
+2026-02-06 12:35:38,620 - WARNING - Invalid Science marks for Karan
+2026-02-06 12:36:57,605 - WARNING - Invalid Science marks for Rohit
+2026-02-06 12:37:00,443 - WARNING - Invalid Computer marks for Pooja
+2026-02-06 12:37:01,065 - WARNING - Missing History marks for Meena
+2026-02-06 12:37:01,623 - WARNING - Invalid Maths marks for Amit
+2026-02-06 12:37:02,062 - WARNING - Missing Science marks for Rahul
+2026-02-06 12:37:03,801 - WARNING - Missing Maths marks for Rahul
+2026-02-06 12:37:04,549 - WARNING - Missing English marks for Rahul
+2026-02-06 12:37:05,527 - WARNING - Missing History marks for Rahul
+2026-02-06 12:38:28,520 - WARNING - Missing Computer marks for Rahul
+2026-02-06 12:38:29,738 - WARNING - Invalid Maths marks for Priya
+2026-02-06 12:38:31,231 - WARNING - Invalid Maths marks for Sunita
+2026-02-06 12:39:20,017 - WARNING - Invalid Computer marks for Yash
+2026-02-06 12:39:20,725 - WARNING - Missing Science marks for SNEHA
+2026-02-06 12:39:21,447 - WARNING - Invalid Maths marks for SNEHA
+2026-02-06 12:39:22,414 - WARNING - Invalid History marks for SNEHA
+2026-02-06 12:39:22,875 - WARNING - Missing Computer marks for Rohini
+2026-02-06 12:39:23,445 - WARNING - Missing English marks for Dev
+2026-02-06 12:39:23,949 - WARNING - Invalid Science marks for Isha
+2026-02-06 12:39:24,340 - WARNING - Missing Science marks for Kriti
+2026-02-06 12:39:24,894 - WARNING - Missing Maths marks for Kriti
+2026-02-06 12:39:25,520 - WARNING - Missing Maths marks for Anu
+2026-02-06 12:39:25,591 - ERROR - Error occurred during preprocessing: could not convert string to float: ''
+2026-02-06 12:39:38,735 - INFO - Result & Grade calculation started
+2026-02-06 12:39:38,739 - INFO - Result, Percent and Grade added successfully
+2026-02-06 12:39:48,456 - INFO - Graph generation started
+2026-02-06 12:39:48,608 - INFO - Chromium init'ed with kwargs {}
+2026-02-06 12:39:48,609 - INFO - Found chromium path: /usr/bin/google-chrome
+2026-02-06 12:39:48,610 - INFO - Temp directory created: /tmp/tmpr3w82r9o.
+2026-02-06 12:39:48,610 - INFO - Opening browser.
+2026-02-06 12:39:48,610 - INFO - Temp directory created: /tmp/tmp2pybyqzt.
+2026-02-06 12:39:48,613 - INFO - ldd failed. e: Command '['ldd', '/usr/bin/google-chrome']' returned non-zero exit status 1., stderr: None
+2026-02-06 12:39:48,613 - INFO - Temporary directory at: /tmp/tmp2pybyqzt
+2026-02-06 12:39:48,795 - INFO - Conforming 1 to file:///tmp/tmpr3w82r9o/index.html
+2026-02-06 12:39:48,796 - INFO - Waiting on all navigates
+2026-02-06 12:39:49,736 - INFO - All navigates done, putting them all in queue.
+2026-02-06 12:39:49,737 - INFO - Getting tab from queue (has 1)
+2026-02-06 12:39:49,737 - INFO - Got 9EBC
+2026-02-06 12:39:49,737 - INFO - Processing Subject_Wise_Average_Marks.png
+2026-02-06 12:39:49,737 - INFO - Sending big command for Subject_Wise_Average_Marks.png.
+2026-02-06 12:39:49,793 - INFO - Sent big command for Subject_Wise_Average_Marks.png.
+2026-02-06 12:39:49,793 - INFO - Reloading tab 9EBC before return.
+2026-02-06 12:39:49,867 - INFO - Putting tab 9EBC back (queue size: 0).
+2026-02-06 12:39:49,868 - INFO - Waiting for all cleanups to finish.
+2026-02-06 12:39:49,868 - INFO - Exiting Kaleido
+2026-02-06 12:39:49,868 - INFO - Closing browser.
+2026-02-06 12:39:49,869 - INFO - Closing browser.
+2026-02-06 12:39:49,870 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:49,870 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:49,870 - INFO - Cancelling tasks.
+2026-02-06 12:39:49,870 - INFO - Exiting Kaleido/Choreo
+2026-02-06 12:39:49,937 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:49,937 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:49,937 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:49,937 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:49,937 - INFO - Cancelling tasks.
+2026-02-06 12:39:49,937 - INFO - Exiting Kaleido/Choreo
+2026-02-06 12:39:49,938 - INFO - Subject average graph saved
+2026-02-06 12:39:49,953 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:49,954 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:49,960 - INFO - Chromium init'ed with kwargs {}
+2026-02-06 12:39:49,961 - INFO - Found chromium path: /usr/bin/google-chrome
+2026-02-06 12:39:49,961 - INFO - Temp directory created: /tmp/tmp3p23omgv.
+2026-02-06 12:39:49,961 - INFO - Opening browser.
+2026-02-06 12:39:49,961 - INFO - Temp directory created: /tmp/tmpmmhfv7eu.
+2026-02-06 12:39:49,964 - INFO - ldd failed. e: Command '['ldd', '/usr/bin/google-chrome']' returned non-zero exit status 1., stderr: None
+2026-02-06 12:39:49,964 - INFO - Temporary directory at: /tmp/tmpmmhfv7eu
+2026-02-06 12:39:50,159 - INFO - Conforming 1 to file:///tmp/tmp3p23omgv/index.html
+2026-02-06 12:39:50,159 - INFO - Waiting on all navigates
+2026-02-06 12:39:51,029 - INFO - All navigates done, putting them all in queue.
+2026-02-06 12:39:51,029 - INFO - Getting tab from queue (has 1)
+2026-02-06 12:39:51,029 - INFO - Got 0519
+2026-02-06 12:39:51,029 - INFO - Processing Grade_Distribution.png
+2026-02-06 12:39:51,029 - INFO - Sending big command for Grade_Distribution.png.
+2026-02-06 12:39:51,071 - INFO - Sent big command for Grade_Distribution.png.
+2026-02-06 12:39:51,072 - INFO - Reloading tab 0519 before return.
+2026-02-06 12:39:51,144 - INFO - Putting tab 0519 back (queue size: 0).
+2026-02-06 12:39:51,145 - INFO - Waiting for all cleanups to finish.
+2026-02-06 12:39:51,145 - INFO - Exiting Kaleido
+2026-02-06 12:39:51,145 - INFO - Closing browser.
+2026-02-06 12:39:51,145 - INFO - Closing browser.
+2026-02-06 12:39:51,146 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:51,146 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:51,146 - INFO - Cancelling tasks.
+2026-02-06 12:39:51,146 - INFO - Exiting Kaleido/Choreo
+2026-02-06 12:39:51,215 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:51,215 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:51,215 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:51,215 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:51,215 - INFO - Cancelling tasks.
+2026-02-06 12:39:51,215 - INFO - Exiting Kaleido/Choreo
+2026-02-06 12:39:51,216 - INFO - Grade distribution graph saved
+2026-02-06 12:39:51,240 - INFO - Chromium init'ed with kwargs {}
+2026-02-06 12:39:51,240 - INFO - Found chromium path: /usr/bin/google-chrome
+2026-02-06 12:39:51,241 - INFO - Temp directory created: /tmp/tmpqtp56npa.
+2026-02-06 12:39:51,241 - INFO - Opening browser.
+2026-02-06 12:39:51,241 - INFO - Temp directory created: /tmp/tmpj4_h2ixc.
+2026-02-06 12:39:51,244 - INFO - ldd failed. e: Command '['ldd', '/usr/bin/google-chrome']' returned non-zero exit status 1., stderr: None
+2026-02-06 12:39:51,244 - INFO - Temporary directory at: /tmp/tmpj4_h2ixc
+2026-02-06 12:39:51,433 - INFO - Conforming 1 to file:///tmp/tmpqtp56npa/index.html
+2026-02-06 12:39:51,434 - INFO - Waiting on all navigates
+2026-02-06 12:39:52,325 - INFO - All navigates done, putting them all in queue.
+2026-02-06 12:39:52,325 - INFO - Getting tab from queue (has 1)
+2026-02-06 12:39:52,325 - INFO - Got 04B6
+2026-02-06 12:39:52,326 - INFO - Processing Pass_vs_Fail_Students.png
+2026-02-06 12:39:52,326 - INFO - Sending big command for Pass_vs_Fail_Students.png.
+2026-02-06 12:39:52,376 - INFO - Sent big command for Pass_vs_Fail_Students.png.
+2026-02-06 12:39:52,376 - INFO - Reloading tab 04B6 before return.
+2026-02-06 12:39:52,453 - INFO - Putting tab 04B6 back (queue size: 0).
+2026-02-06 12:39:52,453 - INFO - Waiting for all cleanups to finish.
+2026-02-06 12:39:52,453 - INFO - Exiting Kaleido
+2026-02-06 12:39:52,453 - INFO - Closing browser.
+2026-02-06 12:39:52,454 - INFO - Closing browser.
+2026-02-06 12:39:52,454 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:52,454 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:52,454 - INFO - Cancelling tasks.
+2026-02-06 12:39:52,454 - INFO - Exiting Kaleido/Choreo
+2026-02-06 12:39:52,522 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:52,522 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:52,522 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 12:39:52,522 - INFO - shutil.rmtree worked.
+2026-02-06 12:39:52,522 - INFO - Cancelling tasks.
+2026-02-06 12:39:52,522 - INFO - Exiting Kaleido/Choreo
+2026-02-06 12:39:52,523 - INFO - Pass Fail graph saved
+2026-02-06 12:39:52,523 - INFO - All graphs created successfully
