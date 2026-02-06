@@ -48,6 +48,7 @@ def graph():
         fig1 = px.bar(
             avg_df,
             x="Subject",
+            color="Subject",
             y="Average Marks",
             text="Average Marks",
             title="Subject Wise Average Marks"
@@ -104,3 +105,7 @@ def graph():
         logging.error("Error while generating graphs")
         logging.error(str(e))
         print("Error:", e)
+
+
+if __name__=="__main__":
+    graph()

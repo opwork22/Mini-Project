@@ -498,3 +498,107 @@
 2026-02-06 16:41:53,542 - INFO - shutil.rmtree worked.
 2026-02-06 16:41:53,542 - INFO - TemporaryDirectory.cleanup() worked.
 2026-02-06 16:41:53,542 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:51,130 - INFO - Graph generation started
+2026-02-06 17:32:51,329 - INFO - Chromium init'ed with kwargs {}
+2026-02-06 17:32:51,330 - INFO - Found chromium path: /usr/bin/google-chrome
+2026-02-06 17:32:51,331 - INFO - Temp directory created: /tmp/tmpch8c43uf.
+2026-02-06 17:32:51,331 - INFO - Opening browser.
+2026-02-06 17:32:51,332 - INFO - Temp directory created: /tmp/tmp6dokgxsp.
+2026-02-06 17:32:51,335 - INFO - ldd failed. e: Command '['ldd', '/usr/bin/google-chrome']' returned non-zero exit status 1., stderr: None
+2026-02-06 17:32:51,335 - INFO - Temporary directory at: /tmp/tmp6dokgxsp
+2026-02-06 17:32:51,553 - INFO - Conforming 1 to file:///tmp/tmpch8c43uf/index.html
+2026-02-06 17:32:51,556 - INFO - Waiting on all navigates
+2026-02-06 17:32:52,539 - INFO - All navigates done, putting them all in queue.
+2026-02-06 17:32:52,540 - INFO - Getting tab from queue (has 1)
+2026-02-06 17:32:52,540 - INFO - Got FD5F
+2026-02-06 17:32:52,540 - INFO - Processing Subject_Wise_Average_Marks.png
+2026-02-06 17:32:52,540 - INFO - Sending big command for Subject_Wise_Average_Marks.png.
+2026-02-06 17:32:52,625 - INFO - Sent big command for Subject_Wise_Average_Marks.png.
+2026-02-06 17:32:52,625 - INFO - Reloading tab FD5F before return.
+2026-02-06 17:32:52,705 - INFO - Putting tab FD5F back (queue size: 0).
+2026-02-06 17:32:52,706 - INFO - Waiting for all cleanups to finish.
+2026-02-06 17:32:52,706 - INFO - Exiting Kaleido
+2026-02-06 17:32:52,706 - INFO - Closing browser.
+2026-02-06 17:32:52,707 - INFO - Closing browser.
+2026-02-06 17:32:52,708 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:52,708 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:52,708 - INFO - Cancelling tasks.
+2026-02-06 17:32:52,708 - INFO - Exiting Kaleido/Choreo
+2026-02-06 17:32:52,777 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:52,777 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:52,777 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:52,777 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:52,777 - INFO - Cancelling tasks.
+2026-02-06 17:32:52,777 - INFO - Exiting Kaleido/Choreo
+2026-02-06 17:32:52,778 - INFO - Subject average graph saved
+2026-02-06 17:32:52,789 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:52,789 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:52,802 - INFO - Chromium init'ed with kwargs {}
+2026-02-06 17:32:52,802 - INFO - Found chromium path: /usr/bin/google-chrome
+2026-02-06 17:32:52,802 - INFO - Temp directory created: /tmp/tmpp_r5h0p7.
+2026-02-06 17:32:52,803 - INFO - Opening browser.
+2026-02-06 17:32:52,803 - INFO - Temp directory created: /tmp/tmpd8zq1tzp.
+2026-02-06 17:32:52,806 - INFO - ldd failed. e: Command '['ldd', '/usr/bin/google-chrome']' returned non-zero exit status 1., stderr: None
+2026-02-06 17:32:52,806 - INFO - Temporary directory at: /tmp/tmpd8zq1tzp
+2026-02-06 17:32:53,035 - INFO - Conforming 1 to file:///tmp/tmpp_r5h0p7/index.html
+2026-02-06 17:32:53,035 - INFO - Waiting on all navigates
+2026-02-06 17:32:53,980 - INFO - All navigates done, putting them all in queue.
+2026-02-06 17:32:53,981 - INFO - Getting tab from queue (has 1)
+2026-02-06 17:32:53,981 - INFO - Got B4DC
+2026-02-06 17:32:53,981 - INFO - Processing Grade_Distribution.png
+2026-02-06 17:32:53,981 - INFO - Sending big command for Grade_Distribution.png.
+2026-02-06 17:32:54,026 - INFO - Sent big command for Grade_Distribution.png.
+2026-02-06 17:32:54,026 - INFO - Reloading tab B4DC before return.
+2026-02-06 17:32:54,106 - INFO - Putting tab B4DC back (queue size: 0).
+2026-02-06 17:32:54,106 - INFO - Waiting for all cleanups to finish.
+2026-02-06 17:32:54,106 - INFO - Exiting Kaleido
+2026-02-06 17:32:54,106 - INFO - Closing browser.
+2026-02-06 17:32:54,107 - INFO - Closing browser.
+2026-02-06 17:32:54,107 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:54,108 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:54,108 - INFO - Cancelling tasks.
+2026-02-06 17:32:54,108 - INFO - Exiting Kaleido/Choreo
+2026-02-06 17:32:54,177 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:54,178 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:54,178 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:54,178 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:54,178 - INFO - Cancelling tasks.
+2026-02-06 17:32:54,178 - INFO - Exiting Kaleido/Choreo
+2026-02-06 17:32:54,178 - INFO - Grade distribution graph saved
+2026-02-06 17:32:54,205 - INFO - Chromium init'ed with kwargs {}
+2026-02-06 17:32:54,205 - INFO - Found chromium path: /usr/bin/google-chrome
+2026-02-06 17:32:54,205 - INFO - Temp directory created: /tmp/tmp7u1iyqn4.
+2026-02-06 17:32:54,205 - INFO - Opening browser.
+2026-02-06 17:32:54,206 - INFO - Temp directory created: /tmp/tmp7yh8ho2e.
+2026-02-06 17:32:54,209 - INFO - ldd failed. e: Command '['ldd', '/usr/bin/google-chrome']' returned non-zero exit status 1., stderr: None
+2026-02-06 17:32:54,209 - INFO - Temporary directory at: /tmp/tmp7yh8ho2e
+2026-02-06 17:32:54,420 - INFO - Conforming 1 to file:///tmp/tmp7u1iyqn4/index.html
+2026-02-06 17:32:54,420 - INFO - Waiting on all navigates
+2026-02-06 17:32:55,401 - INFO - All navigates done, putting them all in queue.
+2026-02-06 17:32:55,402 - INFO - Getting tab from queue (has 1)
+2026-02-06 17:32:55,402 - INFO - Got 622E
+2026-02-06 17:32:55,402 - INFO - Processing Pass_vs_Fail_Students.png
+2026-02-06 17:32:55,402 - INFO - Sending big command for Pass_vs_Fail_Students.png.
+2026-02-06 17:32:55,459 - INFO - Sent big command for Pass_vs_Fail_Students.png.
+2026-02-06 17:32:55,459 - INFO - Reloading tab 622E before return.
+2026-02-06 17:32:55,549 - INFO - Putting tab 622E back (queue size: 0).
+2026-02-06 17:32:55,550 - INFO - Waiting for all cleanups to finish.
+2026-02-06 17:32:55,550 - INFO - Exiting Kaleido
+2026-02-06 17:32:55,550 - INFO - Closing browser.
+2026-02-06 17:32:55,551 - INFO - Closing browser.
+2026-02-06 17:32:55,551 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:55,551 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:55,551 - INFO - Cancelling tasks.
+2026-02-06 17:32:55,551 - INFO - Exiting Kaleido/Choreo
+2026-02-06 17:32:55,620 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:55,620 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:55,620 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:55,620 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:55,620 - INFO - Cancelling tasks.
+2026-02-06 17:32:55,620 - INFO - Exiting Kaleido/Choreo
+2026-02-06 17:32:55,621 - INFO - Pass Fail graph saved
+2026-02-06 17:32:55,621 - INFO - All graphs created successfully
+2026-02-06 17:32:55,648 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:55,648 - INFO - shutil.rmtree worked.
+2026-02-06 17:32:55,649 - INFO - TemporaryDirectory.cleanup() worked.
+2026-02-06 17:32:55,649 - INFO - shutil.rmtree worked.
