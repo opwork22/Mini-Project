@@ -20,11 +20,11 @@ This project is useful for **learning data preprocessing fundamentals** before a
 
 ├── student.csv # Main dataset (updated during preprocessing)
 ├── preprocessing.py # Data cleaning & validation logic
-├── result_calculation.py # Percent, Result, Grade calculation
+├── calculation.py # Percent, Result, Grade calculation
 ├── visualization.py # Plotly graphs generation
-├── graphs/ # Generated graphs (HTML files)
-├── main.py # Parent runner file
+├── graphs/ # Generated graphs
+├── Final_call.py #all fn call
 ├── logs/
-│ └── app.log # Log file
+│ └── student.log # Log file
 └── README.md # Project documentation
 
