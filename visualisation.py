@@ -37,7 +37,7 @@ def graph():
         subject_avg = []
 
         for subject in marks_cols:
-            avg = df[subject].mean()
+            avg = df[subject].mean().round(2)
             subject_avg.append(avg)
 
         avg_df = pd.DataFrame({
@@ -90,7 +90,8 @@ def graph():
 
         fig3.update_traces(
             textposition="outside",
-            textangle=0
+            textangle=0,
+
         )
 
         fig3.write_image(os.path.join(GRAPH_DIR, "pass_fail.png"))
