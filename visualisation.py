@@ -83,6 +83,7 @@ def graph():
         fig3 = px.bar(
             result_count,
             x="Result",
+            color="Result",
             y="Count",
             text="Count",
             title="Pass vs Fail Students"
